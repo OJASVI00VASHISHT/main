@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(to right, 
+                                #ff0000 45%,  /* Red occupies the first 20% */
+                                 
+                                #ffcc00 55%); /* Yellow occupies from 50% to 80% */
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+.header-image {
+    width: 150px; /* Adjust size as needed */
+    height: auto;
+    margin-left: 20px; /* Adds some space between text and image */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav {
+    background: #444;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px 0;
+}
+
+.container_header {
+    width: 80%; 
+    margin: 0 auto; 
+    text-align: left; 
+    padding: 20px; 
+}
+.container_header h1, .container_header p {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+.container_intro {
+    width: 80%; 
+    margin: 0 auto; 
+    text-align: center; 
+    padding: 20px; 
+}
+.container_skills {
+    width: 80%; 
+    margin: 0 auto; 
+    text-align: center; 
+    padding: 20px; 
+}
+.container_projects {
+    width: 80%; 
+    margin: 0 auto; 
+    text-align: center; 
+    padding: 20px; 
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+#skills ul li {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 1.2em;
+}
+
+.project-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.project-item h3 {
+    margin-top: 0;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+form input[type="submit"] {
+    background: #444;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background: #555;
+}
+body {
+    margin: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+
